@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOX-1</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container" id="logo">
+      <img src="/assets/images/fox_large.gif" alt="FOX-1 Logo" />
+      <h1>FOX-1</h1>
+    </div>
+
+    <div class="container" id="welcomeSection">
+      <h2>DIY Open Source AI Agent Watch</h2>
+
+      <button id="getStartedButton">Get started</button>
+    </div>
+
+    <div class="container hidden" id="SuccessSection">
+      <p>🔥🔥🔥🔥</p>
+      <h2>FOX-1Watch is connect ot <span id="os-name"></span></h2>
+      <p>
+        On FOX-1Watch, swipe up on the home screen of the watch,for the AI screen, hold down the mic button to talk, and release the mic button to get a response from the AI Agent.
+      </p>
+    </div>
+
+    <div class="container hidden" id="oSServerSettings">
+      <h3>OS Server Settings</h3>
+      <h4 class="warning hidden">⚠️ Error: Cannot connect OS server. Try again</h4>
+      <form id="oSServerSettingsForm" method="post">
+        <select onchange="osChange(this);" name="os" id="osSelect">
+          <option value="" disabled selected>Select OS</option>
+          <option value="O1OS">O1OS</option>
+          <option value="FOX-1 OS" disabled>FOX-1 OS(coming soon)</option>
+        </select>
+        <input
+          id="server_address"
+          name="server_address"
+          type="text"
+          placeholder="Enter server address"
+        />
+
+        <button type="submit">Connect server</button>
+      </form>
+    </div>
+
+    <div class="container hidden" id="settingsSection">
+      <h3>Connectivity Settings</h3>
+      <h4 class="warning hidden">⚠️ Error: Cannot connect Wi-Fi. Try again</h4>
+      <form id="ConnectivitySettingsForm">
+        <select onchange="ssidChange(this);" name="ssid" id="wifiSelect">
+          <option value="" disabled selected>Select Wifi</option>
+        </select>
+        <input
+          disabled
+          style="display: none"
+          id="other_ssid"
+          name="ssid"
+          type="text"
+          placeholder="Enter SSID"
+        />
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Password"
+        />
+        <button type="submit">Connect</button>
+      </form>
+    </div>
+
+    <div class="credit">
+      <span
+        >Developed with ❤️ by
+        <a target="_blank" href="https://twitter.com/itsmrquansah"
+          >@itsmrquansah</a
+        ></span
+      >
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
