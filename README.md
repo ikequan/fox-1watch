@@ -8,7 +8,7 @@
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 356.00px;">![](/images/image3.png)</span>
 
-<span class="c13"><strong>FOX1-WATCH(FOX-1W)</strong>  is a DIY Open Source AI Agent Watch project designed for tech enthusiasts to build their own AI-powered smartwatch from the off-the-shelved hardware component. The watch serves as a client to any AI Agent OS/Server that can communicate through web sockets and is built on  </span><span class="c11">[LMC Messages architecture](https://docs.openinterpreter.com/protocols/lmc-messages&sa=D&source=editors&ust=1716829156805021&usg=AOvVaw2tptlOOfMw8dtKrkPCzqrM)</span><span class="c1"> by Open Interpreter.</span>
+<span class="c13"><strong>FOX1-WATCH(FOX-1W)</strong>  is a DIY Open Source AI Agent Watch project designed for tech enthusiasts to build their own AI-powered smartwatch from the off-the-shelved hardware component. The watch serves as a client to any AI Agent OS/Server that can communicate through web sockets and is built on  </span><span class="c11">[LMC Messages architecture](https://docs.openinterpreter.com/protocols/lmc-messages)</span><span class="c1"> by Open Interpreter.</span>
 
 <span class="c1">Currently, the programmable watch used is the Lilygo Esp-S3 watch. The watch connects to the Open Interpreter 01’s flagship operating system (“01OS”) that can power conversational, computer-operating AI devices similar to the Rabbit R1 or the Humane Pin.</span>
 
@@ -41,7 +41,7 @@
 
 <span class="c0"><strong>AI OS(Server):</strong></span>
 
-- <span class="c11">[Open Interpreter 01OS](https://01.openinterpreter.com/getting-started/introduction&sa=D&source=editors&ust=1716829156806212&usg=AOvVaw3A8H8QwbRtWcFzhcbOz10l)</span>
+- <span class="c11">[Open Interpreter 01OS](https://01.openinterpreter.com/getting-started/introduction)</span>
 - <span class="c13 c17">FOX- xOs(Coming Soon)</span>
 
 <span class="c1">        </span>
@@ -54,7 +54,7 @@
 
 1.  <span class="c1">Get yourself a [LILYGO® T-Watch-S3 Programmable Touchable Watch](https://bit.ly/4dUvlhL)</span>
 2.  <span class="c1">Clone this repo into Arduino IDF</span>
-3.  <span class="c13">Goto</span> <span class="c11">[LilyGO T-Watch](https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library)</span><span class="c1"> to install the library for the watch and also setup the Arduino IDF environment.</span>
+3.  <span class="c13">Goto</span> <span class="c11">[LilyGO T-Watch](https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library/tree/t-watch-s3)</span><span class="c1"> to install the library for the watch and also setup the Arduino IDF environment.</span>
 4.  <span class="c13">Install Esp32 Sketch Data Upload library and upload UI files to the</span> <span class="c20">SPIFFS</span><span class="c13">(follow this</span> <span class="c11">[blog post](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/)</span><span class="c1">)</span>
 5.  <span class="c1">Now flash the code in this repo to watch for the next steps.</span>
 
